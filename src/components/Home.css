@@ -1,0 +1,22 @@
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
